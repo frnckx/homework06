@@ -24,12 +24,12 @@ public class Rectangle extends AbstractShape {
 
     @Override
     public float getArea() {
-        return 0;
+        return a*b;
     }
 
     @Override
     public float getPerimeter() {
-        return 0;
+        return 2*(a+b);
     }
 
     public String toString() {
